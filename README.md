@@ -1,0 +1,3 @@
+This repository demonstrates a common error in PHP: the use of deprecated `mysql_*` functions.  The `bug.php` file contains code that uses these deprecated functions, making it vulnerable to security risks and incompatible with modern PHP versions.  The `bugSolution.php` file provides a corrected version using the recommended MySQLi extension.
+
+This example is useful for illustrating the importance of keeping your PHP code up-to-date and secure.  Using deprecated functions can have significant negative consequences, so it's crucial to migrate to modern alternatives.
